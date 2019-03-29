@@ -1,9 +1,8 @@
 [priority] -high
-[support for tabbing in / out] -nod3d9ex
 [clears RAM reserved for joystick support] -nojoy
 [number of threads] -threads N
 [no video when starting the game] -novid
-[multithreading for material System
+[multithreading for material System]
 -1: System default
 0: synchronous single thread
 1: queued single thread
@@ -12,4 +11,4 @@
 [configures a custom interface] -language bananagaming
 
 sample usage:
--high -nod3d9ex -nojoy -threads 8 -novid +mat_queue_mode 2 -language bananagaming
+-high -freq 144 -d3d9ex -nojoy -threads 12 -novid +mat_queue_mode 2 -language bananagaming
